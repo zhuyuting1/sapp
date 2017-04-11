@@ -1,0 +1,5 @@
+<block wx:for="{{imageList}}"  wx:for-item="image">
+
+  <image src="{{image}}"  data-src="{{image}}"  bindtap="previewImage" style="width:100%"></image>
+
+</block>
